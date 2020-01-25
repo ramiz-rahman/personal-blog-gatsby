@@ -1,22 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
 const IndexPage = () => {
   return (
     <div>
+      <Header />
       <h1>Ramiz Rahman</h1>
       <p>Full Stack Software Engineer</p>
-      <ul>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact Me</Link>
-        </li>
-      </ul>
+      <Footer />
     </div>
   )
 }
