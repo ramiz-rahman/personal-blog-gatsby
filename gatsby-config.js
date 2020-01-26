@@ -6,4 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Ramiz Rahman's Personal Space",
+    author: "Ramiz Rahman",
+  },
+  plugins: [`gatsby-plugin-sass`],
 }
